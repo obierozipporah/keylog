@@ -32,7 +32,7 @@ class EngyRun:
 	def CompilinG(self,title_ico="CompilinG Start"):
 		print(X+"║")
 		print(X+"╚══["+R+"🔑-Logger"+X+"]──["+R+"~"+X+"]─["+R+title_ico+X+"] "+WI)
-		system(f"pyinstaller --onefile --noconsole {self.filenampackeg}")
+		system(f"pyinstaller --onefile --noconsole {self.filenamepackage}")
 		self.rem_ove()
 		system("cls")
 	def CompilinG_icon(self):
